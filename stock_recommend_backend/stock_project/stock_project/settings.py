@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'stock_app',  # Add your app
+    'riskpredictor',
 ]
 
 MIDDLEWARE = [
