@@ -1,0 +1,50 @@
+{
+  "low": [
+    {
+      "name": "Comprehensive Health Insurance",
+      "description": "A full-coverage health plan with low premiums and wide coverage for medical expenses.",
+      "coverage_details": "Covers hospitalization, OPD visits, and diagnostic tests.",
+      "premium_range": "$20 - $50 per month"
+    },
+    {
+      "name": "Family Health Insurance Plan",
+      "description": "A policy that covers your entire family with discounted premiums.",
+      "coverage_details": "Covers self, spouse, children, and dependent parents.",
+      "premium_range": "$30 - $70 per month"
+    }
+  ],
+  "medium": [
+    {
+      "name": "Standard Health Insurance",
+      "description": "A balanced health insurance policy with moderate premiums and good coverage.",
+      "coverage_details": "Covers hospitalization, selected OPD treatments, and emergency medical care.",
+      "premium_range": "$50 - $120 per month"
+    },
+    {
+      "name": "Critical Illness Insurance",
+      "description": "A policy providing financial support for serious medical conditions such as cancer and heart disease.",
+      "coverage_details": "Provides a lump sum payout upon diagnosis of major illnesses.",
+      "premium_range": "$40 - $100 per month"
+    }
+  ],
+  "high": [
+    {
+      "name": "High-Risk Health Coverage",
+      "description": "Specialized insurance for individuals with pre-existing conditions or high-risk health factors.",
+      "coverage_details": "Covers hospitalization, emergency care, and specialist visits.",
+      "premium_range": "$100 - $300 per month"
+    },
+    {
+      "name": "Accident & Disability Insurance",
+      "description": "Provides financial security in case of accidents or permanent disability.",
+      "coverage_details": "Covers disability, loss of income, and hospitalization due to accidents.",
+      "premium_range": "$80 - $200 per month"
+    },
+    {
+      "name": "Senior Citizen Health Plan",
+      "description": "A plan designed for individuals with age-related health risks and chronic conditions.",
+      "coverage_details": "Covers regular health checkups, hospitalization, and prescription medicines.",
+      "premium_range": "$150 - $400 per month"
+    }
+  ]
+}
