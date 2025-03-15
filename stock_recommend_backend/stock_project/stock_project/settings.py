@@ -10,27 +10,32 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
-
-SECRET_KEY = 'django-insecure-t#4+xg5z2^pab_0y5m(6h1@cf&r=yo^xj3kr#+5%l@wqw6x7b%'
-
-
 import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = 'django-insecure-t#4+xg5z2^pab_0y5m(6h1@cf&r=yo^xj3kr#+5%l@wqw6x7b%'
+
+DEBUG = True
+
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+
+# Application definition
 INSTALLED_APPS = [
+    'corsheaders',  # Added for CORS
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'stock_app',  # Add your app
-    'riskpredictor',
+    'stock_app',      # Your custom app
+    'riskpredictor',  # Your risk predictor app
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',  # CORS middleware added at the top
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -41,22 +46,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'stock_project.urls'
-
-WSGI_APPLICATION = 'stock_project.wsgi.application'
-
-# Set static files and other configurations
-STATIC_URL = '/static/'
-
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
-
-
-
-
-
 
 TEMPLATES = [
     {
@@ -74,11 +63,10 @@ TEMPLATES = [
     },
 ]
 
-
+WSGI_APPLICATION = 'stock_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -86,10 +74,8 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -105,10 +91,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -117,12 +101,16 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# CORS configuration
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8000",
+    "http://localhost:5173",
+]
