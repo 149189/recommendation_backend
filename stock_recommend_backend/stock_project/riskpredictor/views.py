@@ -106,8 +106,7 @@ def predict_risk(request):
         response = {
             'bmi': bmi,
             'risk_percentage': risk_percentage,
-            'risk_band': risk_band,
-            'recommended_products': recommended_products
+            'risk_band': risk_band
         }
         return JsonResponse(response, status=200)
 
