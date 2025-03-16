@@ -1,103 +1,103 @@
 ticker,company_name,volatility
 NIFTY 50,NIFTY 50,Low
-DUMMY1,Dummy Company 2,Low
+NKE,Nike Inc.,Low
 BEL,BEL,Mid
-DUMMY2,Dummy Company 3,Low
+BABA,Alibaba Group,Low
 SBIN,SBIN,Low
-DUMMY3,Dummy Company 4,Low
+NFLX,Netflix Inc.,Low
 CIPLA,CIPLA,Low
-DUMMY4,Dummy Company 5,Low
+DIS,Walt Disney Co.,Low
 ICICIBANK,ICICIBANK,Low
-DUMMY5,Dummy Company 6,Low
+XOM,ExxonMobil,Low
 POWERGRID,POWERGRID,Mid
-DUMMY6,Dummy Company 7,Low
+KO,Coca-Cola Co.,Low
 ONGC,ONGC,Mid
-DUMMY7,Dummy Company 8,Low
+AMZN,Amazon Inc.,Low
 TATASTEEL,TATASTEEL,Mid
-DUMMY8,Dummy Company 9,Low
+PEP,PepsiCo Inc.,Low
 NTPC,NTPC,Mid
-DUMMY9,Dummy Company 10,Low
+AAPL,Apple Inc.,Low
 SUNPHARMA,SUNPHARMA,Low
-DUMMY10,Dummy Company 11,Low
+XOM,ExxonMobil,Low
 TRENT,TRENT,Mid
-DUMMY11,Dummy Company 12,Low
+AMZN,Amazon Inc.,Low
 DRREDDY,DRREDDY,Low
-DUMMY12,Dummy Company 13,Low
+GOOGL,Alphabet Inc.,Low
 TCS,TCS,Low
-DUMMY13,Dummy Company 14,Low
+GOOGL,Alphabet Inc.,Low
 TECHM,TECHM,Mid
-DUMMY14,Dummy Company 15,Low
+INTC,Intel Corp.,Low
 KOTAKBANK,KOTAKBANK,Low
-DUMMY15,Dummy Company 16,Low
+GOOGL,Alphabet Inc.,Low
 TATACONSUM,TATACONSUM,Mid
-DUMMY16,Dummy Company 17,Low
+PFE,Pfizer Inc.,Low
 AXISBANK,AXISBANK,Low
-DUMMY17,Dummy Company 18,Low
+MSFT,Microsoft Corp.,Low
 LT,LT,Mid
-DUMMY18,Dummy Company 19,Low
+CSCO,Cisco Systems,Low
 EICHERMOT,EICHERMOT,Mid
-DUMMY19,Dummy Company 20,Low
+V,Visa Inc.,Low
 BAJAJ-AUTO,BAJAJ-AUTO,Mid
-DUMMY20,Dummy Company 21,Low
+MSFT,Microsoft Corp.,Low
 ITC,ITC,Mid
-DUMMY21,Dummy Company 22,Low
+AAPL,Apple Inc.,Low
 NESTLEIND,NESTLEIND,Low
-DUMMY22,Dummy Company 23,Low
+NVDA,NVIDIA Corp.,Low
 M&M,M&M,Mid
-DUMMY23,Dummy Company 24,Low
+TSLA,Tesla Inc.,Low
 HDFCBANK,HDFCBANK,Low
-DUMMY24,Dummy Company 25,Low
+INTC,Intel Corp.,Low
 TITAN,TITAN,Mid
-DUMMY25,Dummy Company 26,Low
+NVDA,NVIDIA Corp.,Low
 COALINDIA,COALINDIA,Low
-DUMMY26,Dummy Company 27,Low
+AMZN,Amazon Inc.,Low
 HCLTECH,HCLTECH,Low
-DUMMY27,Dummy Company 28,Low
+INTC,Intel Corp.,Low
 ULTRACEMCO,ULTRACEMCO,Low
-DUMMY28,Dummy Company 29,Low
+NFLX,Netflix Inc.,Low
 BHARTIARTL,BHARTIARTL,Mid
-DUMMY29,Dummy Company 30,Low
+AAPL,Apple Inc.,Low
 BAJAJFINSV,BAJAJFINSV,Mid
-DUMMY30,Dummy Company 31,Low
+WMT,Walmart Inc.,Low
 HINDUNILVR,HINDUNILVR,Mid
-DUMMY31,Dummy Company 32,Low
+PYPL,PayPal Holdings,Low
 INFY,INFY,Mid
-DUMMY32,Dummy Company 33,Low
+NFLX,Netflix Inc.,Low
 APOLLOHOSP,APOLLOHOSP,Mid
-DUMMY33,Dummy Company 34,Low
+PEP,PepsiCo Inc.,Low
 BAJFINANCE,BAJFINANCE,Mid
-DUMMY34,Dummy Company 35,Low
+IBM,IBM Corp.,Low
 RELIANCE,RELIANCE,Mid
-DUMMY35,Dummy Company 36,Low
+INTC,Intel Corp.,Low
 ADANIENT,ADANIENT,Mid
-DUMMY36,Dummy Company 37,Low
+NVDA,NVIDIA Corp.,Low
 ADANIPORTS,ADANIPORTS,Mid
-DUMMY37,Dummy Company 38,Low
+JPM,JPMorgan Chase & Co.,Low
 BPCL,BPCL,Mid
-DUMMY38,Dummy Company 39,Low
+MCD,McDonald's Corp.,Low
 ASIANPAINT,ASIANPAINT,Mid
-DUMMY39,Dummy Company 40,Low
+KO,Coca-Cola Co.,Low
 JSWSTEEL,JSWSTEEL,Mid
-DUMMY40,Dummy Company 41,Low
+ADBE,Adobe Inc.,Low
 MARUTI,MARUTI,Mid
-DUMMY41,Dummy Company 42,Low
+AAPL,Apple Inc.,Low
 BRITANNIA,BRITANNIA,Mid
-DUMMY42,Dummy Company 43,Low
+ADBE,Adobe Inc.,Low
 GRASIM,GRASIM,Mid
-DUMMY43,Dummy Company 44,Low
+NVDA,NVIDIA Corp.,Low
 SBILIFE,SBILIFE,Mid
-DUMMY44,Dummy Company 45,Low
+GOOGL,Alphabet Inc.,Low
 WIPRO,WIPRO,Mid
-DUMMY45,Dummy Company 46,Low
+NFLX,Netflix Inc.,Low
 HINDALCO,HINDALCO,Mid
-DUMMY46,Dummy Company 47,Low
+ADBE,Adobe Inc.,Low
 INDUSINDBK,INDUSINDBK,High
-DUMMY47,Dummy Company 48,Low
+BABA,Alibaba Group,Low
 HDFCLIFE,HDFCLIFE,Mid
-DUMMY48,Dummy Company 49,Low
+BABA,Alibaba Group,Low
 TATAMOTORS,TATAMOTORS,High
-DUMMY49,Dummy Company 50,Low
+MCD,McDonald's Corp.,Low
 HEROMOTOCO,HEROMOTOCO,Mid
-DUMMY50,Dummy Company 51,Low
+TSLA,Tesla Inc.,Low
 SHRIRAMFIN,SHRIRAMFIN,High
-DUMMY51,Dummy Company 52,Low
+WMT,Walmart Inc.,Low
